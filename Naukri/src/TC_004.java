@@ -16,7 +16,6 @@ public class TC_004 {
 		startingLine();
 		lineBreak();
 		Expectedresult();
-		lineBreak();
 		actualresult();
 		lineBreak();
 		endingline();
@@ -32,13 +31,13 @@ public class TC_004 {
 	//Function to Print Actual Result
 	private static void actualresult() {
 		// TODO Auto-generated method stub
-		System.out.println("Actual Result");
+		System.out.println("Actual Result : Working as expected");
 	}
 	
 	//Function to print Expected Result
 	private static void Expectedresult() {
 		// TODO Auto-generated method stub
-		System.out.println("Expected Result");
+		System.out.println("Expected Result : Email Id Error Message should be in red color");
 	}
 
 	//Function to Print Line Break

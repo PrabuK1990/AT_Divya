@@ -14,8 +14,11 @@ public class TC_004 {
 		//Place your cursor here and run
 		lineBreak();
 		startingLine();
+		lineBreak();
 		Expectedresult();
+		lineBreak();
 		actualresult();
+		lineBreak();
 		endingline();
 		lineBreak();
 	}

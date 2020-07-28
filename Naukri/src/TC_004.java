@@ -14,9 +14,30 @@ public class TC_004 {
 		//Place your cursor here and run
 		lineBreak();
 		startingLine();
+		Expectedresult();
+		actualresult();
+		endingline();
 		lineBreak();
 	}
 	
+	//Function to Print Ending Line
+	private static void endingline() {
+		// TODO Auto-generated method stub
+		System.out.println("Ending Line");
+	}
+	
+	//Function to Print Actual Result
+	private static void actualresult() {
+		// TODO Auto-generated method stub
+		System.out.println("Actual Result");
+	}
+	
+	//Function to print Expected Result
+	private static void Expectedresult() {
+		// TODO Auto-generated method stub
+		System.out.println("Expected Result");
+	}
+
 	//Function to Print Line Break
 	public static void lineBreak()
 	{

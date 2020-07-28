@@ -2,7 +2,7 @@
 public class TC_003 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("---------------------------------------------------------------");
 		System.out.println("Test Started");
 		System.out.println("---------------------------------------------------------------");
@@ -12,5 +12,4 @@ public class TC_003 {
 		System.out.println("Test Ended");
 		System.out.println("---------------------------------------------------------------");
 	}
-
 }

@@ -25,7 +25,7 @@ public class TC_004 {
 	//Function to Print Ending Line
 	private static void endingline() {
 		// TODO Auto-generated method stub
-		System.out.println("Ending Line");
+		System.out.println("Test Ended");
 	}
 	
 	//Function to Print Actual Result

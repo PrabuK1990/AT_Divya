@@ -16,7 +16,7 @@ public class TC_004 {
 		startingLine();
 		lineBreak();
 		Expectedresult();
-		actualresult();
+		actualResult();
 		lineBreak();
 		endingline();
 		lineBreak();
@@ -29,7 +29,7 @@ public class TC_004 {
 	}
 	
 	//Function to Print Actual Result
-	private static void actualresult() {
+	private static void actualResult() {
 		// TODO Auto-generated method stub
 		System.out.println("Actual Result : Working as expected");
 	}
@@ -51,11 +51,5 @@ public class TC_004 {
 	{
 		System.out.println("Test Started");
 	}
-	
-	//Function to Print Expected Result
-	
-	//Function to Print Actual Result
-	
-	//Function to print Ending Line
-
 }
+

@@ -44,6 +44,12 @@ System.out.println("Test Starts");
 		chrome.findElement(By.name("reg_email__")).sendKeys("07912987069");
 		//Enter Password
 		chrome.findElement(By.name("reg_passwd__")).sendKeys("div123");
+		//Enter Birthday Date day
+		chrome.findElement(By.name("birthday_day")).sendKeys("2");
+		//Enter Birthday Month
+		chrome.findElement(By.name("birthday_month")).sendKeys("6");
+		//Enter Birthday Year
+		chrome.findElement(By.name("birthday_year")).sendKeys("1987");
 		//Click Female radio button
 		chrome.findElement(By.name("sex")).click();
 		//Click Sign up Button

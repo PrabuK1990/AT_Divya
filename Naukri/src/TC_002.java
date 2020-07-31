@@ -8,7 +8,7 @@ public class TC_002 {
 
 		System.out.println("Test Starts");
 
-		// Set path to locate firefox exe file
+		// Set path to locate firefox.exe file
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\Downloads\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		// Create instance of FirefoxDriver() class
 		// Store it in object and name it as "firefox"
@@ -16,7 +16,7 @@ public class TC_002 {
 		
 		WebDriver firefox = new FirefoxDriver();
 		// Enter URL in the browser
-		
+	
 		firefox.get("https://www.naukri.com/");
 		// Close current browser
 		

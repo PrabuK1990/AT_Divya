@@ -1,30 +1,17 @@
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TC_001 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Test Starts");
+		System.out.println("TC_001 : Launch Chrome Browser, Enter Facebook URL and Quit all Browsers");		
 		
-		//Set path to locate chromedriver exe file
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		
-		//Create instance of ChromeDriver() class
-		//Store it in object and name it as "chrome"
-		//Declare the interface type before as "WebDriver"
-		WebDriver chrome = new ChromeDriver();
-		
-		//Enter URL in the browser
-		chrome.get("https://www.naukri.com/");
-		
-		//Close current browser
-		//chrome.close();
-		
-		//Close all browsers
-		chrome.quit();
-		
-		System.out.println("Test Ends");
+		FacebookReusables tc_001 = new FacebookReusables();
+		tc_001.setPropertyChrome();
+		tc_001.chromeBrowser();
+		tc_001.facebookURL();
+		tc_001.closeAllBrowser();
+
+		System.out.println("Successfully Executed TC_001");
 
 	}
 

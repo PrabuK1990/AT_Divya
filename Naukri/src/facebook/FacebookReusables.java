@@ -1,10 +1,14 @@
+package facebook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FacebookReusables {
 	
 	public WebDriver chrome;
+	public WebDriver firefox;
+	
 	
 	//Set path to locate chromedriver exe file
 	public void setPropertyChrome()
@@ -12,9 +16,16 @@ public class FacebookReusables {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver_win32\\chromedriver.exe");	
 	}
 	
+	//SetPath to Locate Firefox File
 	public void setPropertyFirefox()
 	{
-		
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Downloads\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+	}
+	
+	//Launch Firefox Browser
+	public void fireFoxBrowser()
+	{
+		firefox = new FirefoxDriver();
 	}
 	
 	//Launch Chrome Browser

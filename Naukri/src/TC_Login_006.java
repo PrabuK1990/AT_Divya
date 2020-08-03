@@ -32,14 +32,16 @@ public class TC_Login_006 {
 		//Enter username
 		TC_Login_006.enterUsername("divya@gmail.com");
 		
-		//Enter Password
-		TC_Login_006.enterPassword("divya123");
-
-		//wait
-		TC_Login_006.waitMethod();
+		String usr[] = {"pass123", "Divya123"};
 		
-		//Click on Login Button
-		TC_Login_006.clickLoginButton();
+		for(int i = 0; i < usr.length; i++)
+		{
+			TC_Login_006.enterPassword(usr[i]);//Passing Parameter/Arguement
+			System.out.println(usr[i]);
+			TC_Login_006.waitMethod();
+			TC_Login_006.clickLoginButton();
+			TC_Login_006.clearPassword();
+		}
 		
 		System.out.println("Open to the web page/Home page");
 	

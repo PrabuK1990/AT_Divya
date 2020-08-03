@@ -68,7 +68,7 @@ public WebDriver firefox;
 		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys(userName);
 	}
 	
-	//Enter Username Textbox
+	//Clear Username Textbox
 	public void clearUsername()
 	{
 		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).clear();
@@ -78,6 +78,12 @@ public WebDriver firefox;
 	public void enterPassword(String password)
 	{
 		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys(password);
+	}
+	
+	//Clear PassWord Textbox
+	public void clearPassword()
+	{		
+		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).clear();
 	}
 	
 	//Click On Login Button

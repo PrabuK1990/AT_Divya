@@ -27,12 +27,18 @@ public class TC_Login_002 {
 		
 		//wait
 		TC_Login_002.waitMethod();
+
+		String usr[] = {"divy@@" , "!@#$" , "12345"};
 		
-		//Enter username
-		TC_Login_002.enterUsername("1223###");
-		
-		//Click on Login Button
-		TC_Login_002.clickLoginButton();
+		for(int i = 0; i < usr.length; i++)
+		{
+			//Enter username
+			TC_Login_002.enterUsername(usr[i]);//Passing Parameter/Arguement
+			System.out.println(usr[i]);
+			TC_Login_002.waitMethod();
+			TC_Login_002.clickLoginButton();
+			TC_Login_002.clearUsername();
+		}
 		
 		System.out.println("Error message should display as Please Enter Valid Email/Password");
 	

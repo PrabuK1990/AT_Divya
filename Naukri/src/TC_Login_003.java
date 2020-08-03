@@ -15,10 +15,22 @@ public class TC_Login_003 {
 		TC_Login_003.maximizeBrowser();
 		TC_Login_003.waitMethod();
 		TC_Login_003.clickLoginLink();
-
 		//wait
 		TC_Login_003.waitMethod();
-		TC_Login_003.enterUsername("!@20");
+		String usr[] = {"divy@@" , "!@#$" , "12345"};
+		
+		for(int i = 0; i < usr.length; i++)
+		{
+			//Enter username
+			TC_Login_003.enterUsername(usr[i]);//Passing Parameter/Arguement
+			System.out.println(usr[i]);
+			TC_Login_003.waitMethod();
+			TC_Login_003.clickLoginButton();
+			TC_Login_003.clearUsername();
+		}
+		
+		
+		//TC_Login_003.enterUsername("!@20");
 		
 		System.out.println("Email ID Textbox outline should be in red colour");
 	}

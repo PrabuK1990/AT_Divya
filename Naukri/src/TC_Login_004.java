@@ -29,10 +29,18 @@ public class TC_Login_004 {
 		TC_Login_004.waitMethod();
 		
 		//Enter username
-		TC_Login_004.enterUsername("!#@$");
 		
-		//Click on Login Button
-		TC_Login_004.clickLoginButton();
+		String usr[] = {"divy@@" , "!@#$" , "12345"};
+		
+		for(int i = 0; i < usr.length; i++)
+		{
+			//Enter username
+			TC_Login_004.enterUsername(usr[i]);//Passing Parameter/Arguement
+			System.out.println(usr[i]);
+			TC_Login_004.waitMethod();
+			TC_Login_004.clickLoginButton();
+			TC_Login_004.clearUsername();
+		}
 		
 		System.out.println("Error Message should be in Red Colour");
 

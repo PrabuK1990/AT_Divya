@@ -29,10 +29,7 @@ public class TC_Login_002 {
 		TC_Login_002.waitMethod();
 		
 		//Enter username
-		TC_Login_002.enterInvalidUsername();
-		
-		//Enter Password
-		TC_Login_002.enterPassword();
+		TC_Login_002.enterUsername("1223###");
 		
 		//Click on Login Button
 		TC_Login_002.clickLoginButton();

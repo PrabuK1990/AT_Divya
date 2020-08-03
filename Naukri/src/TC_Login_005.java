@@ -29,7 +29,7 @@ public class TC_Login_005 {
 		TC_Login_005.waitMethod();
 		
 		//the Default is not going to username or emailid
-		System.out.println("Default is not in Email Id");
+		System.out.println("Default Text will be display in Email Id Text Box");
 
 	}
 

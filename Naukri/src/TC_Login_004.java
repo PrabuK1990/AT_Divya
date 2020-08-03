@@ -29,10 +29,7 @@ public class TC_Login_004 {
 		TC_Login_004.waitMethod();
 		
 		//Enter username
-		TC_Login_004.enterInvalidUsername();
-		
-		//Enter Password
-		TC_Login_004.enterPassword();
+		TC_Login_004.enterUsername("!#@$");
 		
 		//Click on Login Button
 		TC_Login_004.clickLoginButton();

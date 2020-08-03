@@ -30,10 +30,10 @@ public class TC_Login_006 {
 		TC_Login_006.waitMethod();
 		
 		//Enter username
-		TC_Login_006.enterUsername();
+		TC_Login_006.enterUsername("divya@gmail.com");
 		
 		//Enter Password
-		TC_Login_006.enterPassword();
+		TC_Login_006.enterPassword("divya123");
 
 		//wait
 		TC_Login_006.waitMethod();

@@ -1,11 +1,10 @@
 
-public class TC_Login_0010 {
+public class TC_Login_010 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Check Wether Default is in Password Field");
-		
 		
 		NaukriReusables TC_Login_0010 = new NaukriReusables();
 		
@@ -30,10 +29,8 @@ public class TC_Login_0010 {
 		//wait
 		TC_Login_0010.waitMethod();
 		
-		//Enter username
-		TC_Login_0010.enterUsername();
-		
-		System.out.println("Default include Should be in Password text box");
+			
+		System.out.println("Default Text include Should be in Password text box");
 	
 
 	}

@@ -18,7 +18,7 @@ public class TC_Login_003 {
 
 		//wait
 		TC_Login_003.waitMethod();
-		TC_Login_003.enterInvalidUsername();
+		TC_Login_003.enterUsername("!@20");
 		
 		System.out.println("Email ID Textbox outline should be in red colour");
 	}

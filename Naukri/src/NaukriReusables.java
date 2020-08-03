@@ -63,15 +63,21 @@ public WebDriver firefox;
 	}
 	
 	//Enter Username Textbox
-	public void enterUsername()
+	public void enterUsername(String userName)
 	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("divya@gmail.com");
+		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys(userName);
+	}
+	
+	//Enter Username Textbox
+	public void clearUsername()
+	{
+		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).clear();
 	}
 	
 	//Enter PassWord Textbox
-	public void enterPassword()
+	public void enterPassword(String password)
 	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("123e456");
+		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys(password);
 	}
 	
 	//Click On Login Button
@@ -89,23 +95,12 @@ public WebDriver firefox;
 		}
 		catch (InterruptedException e) 
 		{
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 	}
-	//Enter Invalid Username	
-		public void enterInvalidUsername()
-	{
-		
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("1223###");
-	}
 	
-	//Enter Invalid Password
-	public void enterInvalidPassword()
-	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("123*/*");
-	}
+	
 	
 
 }

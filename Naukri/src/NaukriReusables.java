@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class NaukriReusables {
+public class NaukriReusables implements NaukriInputs, NaukriControls {
 
 public WebDriver chrome;
 public WebDriver firefox;
@@ -35,7 +35,7 @@ public WebDriver firefox;
 	//Enter URL in the browser
 	public void naukriURL()
 	{
-		chrome.get("https://www.naukri.com/");
+		chrome.get(NaukriInputs_Url);
 	}
 	
 	//Close Current Browser
@@ -59,7 +59,7 @@ public WebDriver firefox;
 	//Click Login Link
 	public void clickLoginLink()
 	{
-		chrome.findElement(By.xpath("//div[text()='Login']")).click();
+		chrome.findElement(By.xpath(NaukriControls_LoginLink)).click();
 	}
 	
 	//Enter Username Textbox
@@ -105,8 +105,5 @@ public WebDriver firefox;
 		}
 		
 	}
-	
-	
-	
 
 }

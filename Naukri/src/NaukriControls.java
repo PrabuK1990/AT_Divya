@@ -50,33 +50,34 @@ public interface NaukriControls {
 	public static String NaukriControls__InterviewQuestionSLink =" //a[@data-ga-track='Main Navigation Companies|Interview Questions']";
 	
 	//Xpath for Salary Trends Sub Link
-	public static String NaukriControls__SalaryTrendsSLink = " ";
+	public static String NaukriControls__SalaryTrendsSLink = "//a[@data-ga-track='Main Navigation Insights|Salary Trends'] ";
 	
 	//Xpath for Career Navigator Sub Link
-	public static String NaukriControls__CareerNavigatorSLink = " ";
+	public static String NaukriControls__CareerNavigatorSLink = "//a[@data-ga-track='Main Navigation Insights|Career Navigator'] ";
 	
 	//Xpath for People Flow Sub Link
-	public static String NaukriControls__PeopleFlowSLink = " ";
+	public static String NaukriControls__PeopleFlowSLink = " //a[@data-ga-track='Main Navigation Insights|People Flow']";
 	
 	//Xpath for Text Resume Sub Link
-	public static String NaukriControls__TextResumeSLink = " ";
-s	
+	public static String NaukriControls__TextResumeSLink = " //a[@data-ga-track='Main Navigation Services|Text Resume']";
+	
 	//Xpath for Visual Resume Sub link
-	public static String NaukriControls__VisualResumeSLink = " ";
+	public static String NaukriControls__VisualResumeSLink = "//a[@data-ga-track='Main Navigation Services|Visual Resume'] ";
 	
 	//Xpath for Resume Quality Score-Free Sub Link
-	public static String NaukriControls__ResumeQualityScooreFreeSLink = " ";
+	public static String NaukriControls__ResumeQualityScooreFreeSLink = "//a[@data-ga-track='Main Navigation Services|Resume Quality Score'] ";
 	
 	//Xpath for Naukri Blog Sub Link
-	public static String NaukriControls__NaukriBlogSLink =" ";
+	public static String NaukriControls__NaukriBlogSLink ="//a[@data-ga-track='Main Navigation More|Naukri Blog'] ";
 	
 	//Xpath for FAQ Sub Link
-	public static String NaukriControls__FAQSLink = " ";
+	public static String NaukriControls__FAQSLink = "//a[@data-ga-track='Main Navigation More|FAQ'] ";
 	
 	//Xpath for Take Home Calculator Sub Link
-	public static String NaukriControls__TakeHomeCalculatorSLink = " ";
+	public static String NaukriControls__TakeHomeCalculatorSLink = "//a[@data-ga-track='Main Navigation More|Take Home Calculator'] ";
 	
 	
+	 
 	
 	
 }

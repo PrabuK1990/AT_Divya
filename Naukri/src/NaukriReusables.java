@@ -105,5 +105,45 @@ public WebDriver firefox;
 		}
 		
 	}
-
+	
+	//Click On ForEmployers Login Page
+	public void ForEmployers()
+	{
+		chrome.findElement(By.xpath("//a[@data-ga-track = 'Main Navigation My Naukri|For Employers']")).click();
+	}
+	
+	//Click on Sale Enquiry Button
+	public void saleEnquiry()
+	{
+		chrome.findElement(By.xpath("li[@class ='boxSel active']")).click();
+	}
+	
+	//Click on Name Text Box
+	public void employerName(String Employername)
+	{
+		chrome.findElement(By.xpath("input [@data-label = 'Name']")).sendKeys(Employername);     
+	}
+	
+	//Clear Employer Name Text Box
+	public void clearEmployerName()
+	{
+		chrome.findElement(By.xpath("input [@data-label = 'Name']")).clear();
+	}
+	
+	//Click on Employer Submit Enquiry Button
+	public void employerSubmitEnquiry()
+	{
+		chrome.findElement(By.xpath("//button [@style = 'background: #2870C1;border-radius: 4px;box-shadow: 0 2px 6px 0 rgba(9, 50, 131, 0.2);font-size:14px;line-height:20px;padding:0px;margin-top: 10px;text-transform:capitalize;font-size:16px']")).click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

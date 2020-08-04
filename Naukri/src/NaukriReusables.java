@@ -11,7 +11,7 @@ public WebDriver firefox;
 	//Set path to locate chromedriver exe file
 	public void setPropertyChrome()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver_win32\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver.exe");	
 	}
 	
 	//Launch Chrome Browser
@@ -23,7 +23,7 @@ public WebDriver firefox;
 	//Set path to locate Frifrefox exe file
 	public void setPropertyFirefox()
 	{
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\Downloads\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src\\resources\\drivers\\geckodriver.exe");
 	}
 	
 	//Launch Firefox Browser

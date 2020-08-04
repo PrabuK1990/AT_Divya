@@ -1,5 +1,5 @@
 
-public class TC_Login_010 {
+public class TC_Login_010 implements NaukriInputs{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

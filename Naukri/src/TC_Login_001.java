@@ -1,5 +1,5 @@
 
-public class TC_Login_001 {
+public class TC_Login_001 implements NaukriInputs {
 
 	public static void main(String[] args) {
 		
@@ -15,7 +15,7 @@ public class TC_Login_001 {
 		TC_Login_001.clickLoginLink();
 		TC_Login_001.waitMethod();
 		
-		String usr[] = {"divya@gmail.com", "Divya", "Divya123", "123Divya"};
+		String usr[] = {NaukriInputs_UserName1, NaukriInputs_UserName2, NaukriInputs_UserName3, NaukriInputs_UserName4};
 		
 		for(int i = 0; i < usr.length; i++)
 		{

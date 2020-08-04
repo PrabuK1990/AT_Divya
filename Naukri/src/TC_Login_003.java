@@ -17,7 +17,7 @@ public class TC_Login_003 {
 		TC_Login_003.clickLoginLink();
 		//wait
 		TC_Login_003.waitMethod();
-		String usr[] = {"divy@@" , "!@#$" , "12345"};
+		String usr[] = {"NaukriInputs_InUserName1","NaukriInputs_InUserName2","NaukriInputs_InUserName3"};
 		
 		for(int i = 0; i < usr.length; i++)
 		{

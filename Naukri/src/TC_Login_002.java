@@ -28,7 +28,7 @@ public class TC_Login_002 {
 		//wait
 		TC_Login_002.waitMethod();
 
-		String usr[] = {"divy@@" , "!@#$" , "12345"};
+		String usr[] = {"NaukriInputs_InUserName1","NaukriInputs_InUserName2","NaukriInputs_InUserName3"};
 		
 		for(int i = 0; i < usr.length; i++)
 		{

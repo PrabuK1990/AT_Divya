@@ -1,5 +1,5 @@
 
-public class TC_Login_007 {
+public class TC_Login_007 implements NaukriInputs{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -29,10 +29,10 @@ public class TC_Login_007 {
 		TC_Login_007.waitMethod();
 		
 		//Enter username
-		TC_Login_007.enterUsername("divya@gmail.com");
+		TC_Login_007.enterUsername("NaukriInputs_UserName1");
 		
 		//Enter  Invalid Password
-		TC_Login_007.enterPassword("123##");
+		TC_Login_007.enterPassword("NaukriInput_INPassWord");
 
 		//wait
 		TC_Login_007.waitMethod();

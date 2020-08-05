@@ -72,31 +72,32 @@ public ArrayList<String> listTabs;
 	//Enter Username Textbox
 	public void enterUsername(String userName)
 	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys(userName);
+		chrome.findElement(By.xpath(NaukriControls_LoginUserName)).sendKeys(userName);  
 	}
 	
 	//Clear Username Textbox
 	public void clearUsername()
 	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).clear();
-	}
+		chrome.findElement(By.xpath(NaukriControls_LoginUserName)).clear();
+	}//(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).clear();
+
 	
 	//Enter PassWord Textbox
 	public void enterPassword(String password)
 	{
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys(password);
+		chrome.findElement(By.xpath(NaukriControls_LoginPassword)).sendKeys(password);
 	}
 	
 	//Clear PassWord Textbox
 	public void clearPassword()
 	{		
-		chrome.findElement(By.xpath("//input[@placeholder='Enter your password']")).clear();
+		chrome.findElement(By.xpath(NaukriControls_LoginPassword)).clear();
 	}
 	
 	//Click On Login Button
 	public void clickLoginButton()
 	{
-		chrome.findElement(By.xpath("//button[text()='Login']")).click();
+		chrome.findElement(By.xpath(NaukriControls_ClickLoginButton)).click();
 	}
 	
 	//wait Method Call
@@ -116,13 +117,13 @@ public ArrayList<String> listTabs;
 	//Click On ForEmployers Login Page
 	public void ForEmployers()
 	{
-		chrome.findElement(By.xpath("//a[@data-ga-track = 'Main Navigation My Naukri|For Employers']")).click();
+		chrome.findElement(By.xpath(NaukriControls_ForEmployerLink)).click();
 	}
 	
 	//Click on Sale Enquiry Button
 	public void saleEnquiry()
 	{
-		chrome.findElement(By.xpath("//li[@class ='boxSel active']")).click();
+		chrome.findElement(By.xpath(NaukriControls_SaleEnquiry)).click();
 	}
 	
 	//Switch to New tab and do actions
@@ -141,20 +142,20 @@ public ArrayList<String> listTabs;
 	//Click on Name Text Box// its not taking the Xpath address
 	public void employerName(String Employername)
 	{
-		chrome.findElement(By.xpath("//form[@id='rcbFormLoginPage']/div[1]/div[1]/div/input")).sendKeys(Employername);     
+		chrome.findElement(By.xpath(NaukriControls_EmployerName)).sendKeys(Employername);     
 	}
 	
 	//Clear Employer Name Text Box
 	public void clearEmployerName()
 	{
-		chrome.findElement(By.xpath("//form[@id='rcbFormLoginPage']/div[1]/div[1]/div/input")).clear();
+		chrome.findElement(By.xpath(NaukriControls_EmployerName)).clear();
 	}
 	
 	//Click on Employer Submit Enquiry Button
 	public void employerSubmitEnquiry() throws AWTException
 	{
 		keboardPageDown();
-		chrome.findElement(By.id("getACallLoginPage")).click();
+		chrome.findElement(By.id(NaukriControls_EmployerSubmitEnquiry)).click();
 	}
 	
 	
@@ -164,5 +165,29 @@ public ArrayList<String> listTabs;
 		keyboard.keyPress(KeyEvent.VK_PAGE_DOWN);
 		keyboard.keyRelease(KeyEvent.VK_PAGE_DOWN);
 	}
+	
+	//Click Employer Contact Number
+	public void empoyerContactNumber(String EmployerContactNumber)
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerContactNumber)).sendKeys(EmployerContactNumber);
+	}
+	
+	//Clear Employer Contact Number
+	public void clearEmployerContactNumber()
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerContactNumber)).clear();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

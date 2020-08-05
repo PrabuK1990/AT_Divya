@@ -118,7 +118,7 @@ public WebDriver firefox;
 		chrome.findElement(By.xpath("li[@class ='boxSel active']")).click();
 	}
 	
-	//Click on Name Text Box
+	//Click on Name Text Box// its not taking the Xpath address
 	public void employerName(String Employername)
 	{
 		chrome.findElement(By.xpath("input [@data-label = 'Name']")).sendKeys(Employername);     

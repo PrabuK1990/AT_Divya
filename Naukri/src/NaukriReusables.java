@@ -1,12 +1,19 @@
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.util.ArrayList;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.sun.glass.events.KeyEvent;
+
 public class NaukriReusables implements NaukriInputs, NaukriControls {
 
 public WebDriver chrome;
 public WebDriver firefox;
+public ArrayList<String> listTabs;
 	
 	//Set path to locate chromedriver exe file
 	public void setPropertyChrome()
@@ -115,35 +122,47 @@ public WebDriver firefox;
 	//Click on Sale Enquiry Button
 	public void saleEnquiry()
 	{
-		chrome.findElement(By.xpath("li[@class ='boxSel active']")).click();
+		chrome.findElement(By.xpath("//li[@class ='boxSel active']")).click();
+	}
+	
+	//Switch to New tab and do actions
+	public void switchToNewTab()
+	{
+		listTabs = new ArrayList<String>(chrome.getWindowHandles());
+		chrome.switchTo().window(listTabs.get(1));
+	}
+	
+	//Switch back to default tab and do actions
+	public void switchToDefaultTab()
+	{
+		chrome.switchTo().window(listTabs.get(0));
 	}
 	
 	//Click on Name Text Box// its not taking the Xpath address
 	public void employerName(String Employername)
 	{
-		chrome.findElement(By.xpath("input [@data-label = 'Name']")).sendKeys(Employername);     
+		chrome.findElement(By.xpath("//form[@id='rcbFormLoginPage']/div[1]/div[1]/div/input")).sendKeys(Employername);     
 	}
 	
 	//Clear Employer Name Text Box
 	public void clearEmployerName()
 	{
-		chrome.findElement(By.xpath("input [@data-label = 'Name']")).clear();
+		chrome.findElement(By.xpath("//form[@id='rcbFormLoginPage']/div[1]/div[1]/div/input")).clear();
 	}
 	
 	//Click on Employer Submit Enquiry Button
-	public void employerSubmitEnquiry()
+	public void employerSubmitEnquiry() throws AWTException
 	{
-		chrome.findElement(By.xpath("//button [@style = 'background: #2870C1;border-radius: 4px;box-shadow: 0 2px 6px 0 rgba(9, 50, 131, 0.2);font-size:14px;line-height:20px;padding:0px;margin-top: 10px;text-transform:capitalize;font-size:16px']")).click();
+		keboardPageDown();
+		chrome.findElement(By.id("getACallLoginPage")).click();
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
+	public void keboardPageDown() throws AWTException
+	{
+		Robot keyboard = new Robot();
+		keyboard.keyPress(KeyEvent.VK_PAGE_DOWN);
+		keyboard.keyRelease(KeyEvent.VK_PAGE_DOWN);
+	}
 	
 }

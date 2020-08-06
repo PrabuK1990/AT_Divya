@@ -4,8 +4,10 @@ import java.util.ArrayList;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import com.sun.glass.events.KeyEvent;
 
@@ -158,7 +160,7 @@ public ArrayList<String> listTabs;
 		chrome.findElement(By.id(NaukriControls_EmployerSubmitEnquiry)).click();
 	}
 	
-	
+	//Keyboard Action PageDown
 	public void keboardPageDown() throws AWTException
 	{
 		Robot keyboard = new Robot();
@@ -176,18 +178,146 @@ public ArrayList<String> listTabs;
 	public void clearEmployerContactNumber()
 	{
 		chrome.findElement(By.xpath(NaukriControls_EmployerContactNumber)).clear();
+	}	
+	
+	//Move Mouse Pointer on Job Menu
+	public void mousehoverJobLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverJob = chrome.findElement(By.xpath(NaukriControls_JobsLink));
+		actions.moveToElement(mousehoverJob).perform();
+	}
+	
+	public void clickonSearchJobsSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_SearchJobsSLink)).click();
+	}
+	
+	public void clickonAdvancedSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_AdvancedJobsSLink)).click();
+	}
+	
+	public void clickonCreateFreeJobAlertsLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_CreateFreeJobAlertsLink)).click();
 	}
 	
 	
 	
+	public void mousehoverRecruitersLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverRecruiter = chrome.findElement(By.xpath(NaukriControls_RecruitersLink));
+		actions.moveToElement(mousehoverRecruiter).perform();
+	}
+	
+	public void clickonBrowseAllRecruitersSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_BrowseAllRecruitersSLink)).click();
+	}
+	
+	public void clickonRecruiterConnectionSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_RecruiterConnectionSLink)).click();
+	}
+	
+	public void clickonGoTONaukriRecruiterSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_GoTONaukriRecruiterSLink)).click();
+	}
 	
 	
 	
+	public void mousehoverCompaniesLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverCompanies = chrome.findElement(By.xpath(NaukriControls_CompaniesLink));
+		actions.moveToElement(mousehoverCompanies).perform();
+	}
+	
+	public void clickonBrowseAllCompaniesSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_BrowseAllCompaniesSLink)).click();
+	}
+	
+	public void clickonAboutCompaniesSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_AboutCompaniesSLink)).click();
+	}
+	
+	public void clickonInterviewQuestionSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_InterviewQuestionSLink)).click();
+	}
+	
+	public void mousehoverToolsLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverTools = chrome.findElement(By.xpath(NaukriControls_ToolsLink));
+		actions.moveToElement(mousehoverTools).perform();
+	}
+	
+	public void clickonSalaryTrendsSLink()
+	{
+		chrome.findElement(By.xpath( NaukriControls_SalaryTrendsSLink)).click();
+	}
+	
+	public void clickonCareerNavigatorSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_CareerNavigatorSLink)).click();
+	}
+	
+	public void clickonPeopleFlowSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_PeopleFlowSLink)).click();
+	}
 	
 	
+	public void mousehoverServicesLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverServices = chrome.findElement(By.xpath(NaukriControls_ServicesLink));
+		actions.moveToElement( mousehoverServices).perform();
+	}
+	
+	public void clickonTextResumeSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_TextResumeSLink)).click();
+	}
+	
+	public void clickonVisualResumeSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_VisualResumeSLink)).click();
+	}
+	
+	public void clickonResumeQualityScooreFreeSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_ResumeQualityScooreFreeSLink)).click();
+	}
 	
 	
+	public void mousehoverMoreLink()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverMore = chrome.findElement(By.xpath(NaukriControls_MoreLink));
+		actions.moveToElement(mousehoverMore).perform();
+	}
 	
 	
+	public void clickonNaukriBlogSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_NaukriBlogSLink)).click();
+	}
 	
+	public void clickonFAQSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_FAQSLink)).click();
+	}
+	
+	public void clickonTakeHomeCalculatorSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_TakeHomeCalculatorSLink)).click();
+	}
+
 }

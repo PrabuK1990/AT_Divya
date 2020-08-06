@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 
 public interface NaukriControls {
 	
@@ -32,6 +31,8 @@ public interface NaukriControls {
 	//Xpath for Click Login Button
 	public static String NaukriControls_ClickLoginButton ="//button[text()='Login']";
 	
+	
+	//Jobs SubLinks
 	//Xpath for Search Jobs Sub Link
 	public static String NaukriControls_SearchJobsSLink = "//a[@data-ga-track = 'Main Navigation Jobs|Search Jobs']";
 	
@@ -41,6 +42,8 @@ public interface NaukriControls {
 	//Xpath for Create Free Job Alert Sub Link
 	public static String NaukriControls_CreateFreeJobAlertsLink =" //a[@data-ga-track = 'Main Navigation Jobs|Create Free Job Alert'] ";
 	
+	
+	//Recruiters SubLinks
 	//Xpath for Browse All Recruiters Sub Link
 	public static String NaukriControls_BrowseAllRecruitersSLink = " //a[@title='Browse All Recruiters']";
 	
@@ -48,47 +51,55 @@ public interface NaukriControls {
 	public static String NaukriControls_RecruiterConnectionSLink ="//a[@data-ga-track='Main Navigation Recruiters|Recruiter Connection'] ";
 	
 	//Xpath for Go TO NaukriRecruiter Sub Link
-	public static String NaukriControls__GoTONaukriRecruiterSLink ="//a[@data-ga-track='Main Navigation Recruiters|Goto Naukri Recruiter'] ";
+	public static String NaukriControls_GoTONaukriRecruiterSLink ="//a[@data-ga-track='Main Navigation Recruiters|Goto Naukri Recruiter'] ";
 	
+	
+	//Companies SubLinks
 	//Xpath for Browse All Companies Sub Link
-	public static String NaukriControls__BrowseAllCompaniesSLink ="//a[@data-ga-track='Main Navigation Companies|Browse All Companies'] ";
+	public static String NaukriControls_BrowseAllCompaniesSLink ="//a[@data-ga-track='Main Navigation Companies|Browse All Companies'] ";
 	
 	//Xpath for About Companies Sub Link
-	public static String NaukriControls__AboutCompaniesSLink = "//a[@data-ga-track='Main Navigation Companies|About Companies'] ";
+	public static String NaukriControls_AboutCompaniesSLink = "//a[@data-ga-track='Main Navigation Companies|About Companies'] ";
 	
 	//Xpath for Interview Questions
-	public static String NaukriControls__InterviewQuestionSLink =" //a[@data-ga-track='Main Navigation Companies|Interview Questions']";
+	public static String NaukriControls_InterviewQuestionSLink =" //a[@data-ga-track='Main Navigation Companies|Interview Questions']";
 	
+	
+	//Tools Sublinks
 	//Xpath for Salary Trends Sub Link
-	public static String NaukriControls__SalaryTrendsSLink = "//a[@data-ga-track='Main Navigation Insights|Salary Trends'] ";
+	public static String NaukriControls_SalaryTrendsSLink = "//a[@data-ga-track='Main Navigation Insights|Salary Trends'] ";
 	
 	//Xpath for Career Navigator Sub Link
-	public static String NaukriControls__CareerNavigatorSLink = "//a[@data-ga-track='Main Navigation Insights|Career Navigator'] ";
+	public static String NaukriControls_CareerNavigatorSLink = "//a[@data-ga-track='Main Navigation Insights|Career Navigator'] ";
 	
 	//Xpath for People Flow Sub Link
-	public static String NaukriControls__PeopleFlowSLink = " //a[@data-ga-track='Main Navigation Insights|People Flow']";
+	public static String NaukriControls_PeopleFlowSLink = " //a[@data-ga-track='Main Navigation Insights|People Flow']";
 	
+	
+	//Services SubLinks
 	//Xpath for Text Resume Sub Link
-	public static String NaukriControls__TextResumeSLink = " //a[@data-ga-track='Main Navigation Services|Text Resume']";
+	public static String NaukriControls_TextResumeSLink = " //a[@data-ga-track='Main Navigation Services|Text Resume']";
 	
 	//Xpath for Visual Resume Sub link
-	public static String NaukriControls__VisualResumeSLink = "//a[@data-ga-track='Main Navigation Services|Visual Resume'] ";
+	public static String NaukriControls_VisualResumeSLink = "//a[@data-ga-track='Main Navigation Services|Visual Resume'] ";
 	
 	//Xpath for Resume Quality Score-Free Sub Link
-	public static String NaukriControls__ResumeQualityScooreFreeSLink = "//a[@data-ga-track='Main Navigation Services|Resume Quality Score'] ";
+	public static String NaukriControls_ResumeQualityScooreFreeSLink = "//a[@data-ga-track='Main Navigation Services|Resume Quality Score'] ";
 	
+	
+	//More SubLinks
 	//Xpath for Naukri Blog Sub Link
-	public static String NaukriControls__NaukriBlogSLink ="//a[@data-ga-track='Main Navigation More|Naukri Blog'] ";
+	public static String NaukriControls_NaukriBlogSLink ="//a[@data-ga-track='Main Navigation More|Naukri Blog'] ";
 	
 	//Xpath for FAQ Sub Link
-	public static String NaukriControls__FAQSLink = "//a[@data-ga-track='Main Navigation More|FAQ'] ";
+	public static String NaukriControls_FAQSLink = "//a[@data-ga-track='Main Navigation More|FAQ'] ";
 	
 	//Xpath for Take Home Calculator Sub Link
-	public static String NaukriControls__TakeHomeCalculatorSLink = "//a[@data-ga-track='Main Navigation More|Take Home Calculator'] ";
+	public static String NaukriControls_TakeHomeCalculatorSLink = "//a[@data-ga-track='Main Navigation More|Take Home Calculator'] ";
+	
+	
 	
 	//Sub Link For Employers
-	
-	
 	//Xpath for For Employers Webpage
 	public static String NaukriControls_ForEmployerLink ="//a[@data-ga-track = 'Main Navigation My Naukri|For Employers']";
 	

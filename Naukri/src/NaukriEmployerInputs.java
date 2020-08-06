@@ -22,4 +22,5 @@ public interface NaukriEmployerInputs
 	public static String NaukriEmployerInputs_EmployeCity2 = "Hyderabad";
 	public static String NaukriEmployerInputs_EmployeINCity1 = "Kalpana";
 	public static String NaukriEmployerInputs_EmployeINCity2 = "Devirex";
+	public static String NaukriEmployerInputs = "1";
 }

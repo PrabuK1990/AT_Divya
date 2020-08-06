@@ -97,6 +97,11 @@ public interface NaukriControls {
 	//Xpath for Take Home Calculator Sub Link
 	public static String NaukriControls_TakeHomeCalculatorSLink = "//a[@data-ga-track='Main Navigation More|Take Home Calculator'] ";
 	
+	//Xpath for MS Sub Link
+	public  static String NaukriControls_MSSLink = "//a[@data-ga-track = 'Main Navigation More|MS']";
+	
+	//Xpath for SOP Sub Link
+	public static String NaukriControls_SOPSLink = "//a[@data-ga-track = 'Main Navigation More|SOP']";
 	
 	
 	//Sub Link For Employers

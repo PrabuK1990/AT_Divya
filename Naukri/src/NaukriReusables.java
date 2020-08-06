@@ -319,5 +319,15 @@ public ArrayList<String> listTabs;
 	{
 		chrome.findElement(By.xpath(NaukriControls_TakeHomeCalculatorSLink)).click();
 	}
+	
+	public void clickonMSSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_MSSLink)).click();
+	}
+	
+	public void clickonSOPSLink()
+	{
+		chrome.findElement(By.xpath(NaukriControls_SOPSLink)).click();
+	}
 
 }

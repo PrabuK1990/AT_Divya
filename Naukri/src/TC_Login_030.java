@@ -15,6 +15,7 @@ public class TC_Login_030 {
 		TC_Login_30.mousehoverMoreLink();
 		TC_Login_30.waitMethod();
 		TC_Login_30.clickonSOPSLink();
+		TC_Login_30.waitMethod();
 		TC_Login_30.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

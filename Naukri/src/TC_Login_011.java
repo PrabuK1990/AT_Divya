@@ -16,6 +16,7 @@ public class TC_Login_011 {
 		TC_Login_011.mousehoverJobLink();
 		TC_Login_011.waitMethod();
 		TC_Login_011.clickonSearchJobsSLink();
+		TC_Login_011.waitMethod();
 		TC_Login_011.closeCurrentBrowser();
 		
 		System.out.println("It should open new tab");

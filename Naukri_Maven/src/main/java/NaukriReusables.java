@@ -65,6 +65,12 @@ public ArrayList<String> listTabs;
 		chrome.manage().window().maximize();
 	}
 	
+	//Refresh Browser
+	public void refreshBrowser()
+	{
+		chrome.navigate().refresh();
+	}
+	
 	//Click Login Link
 	public void clickLoginLink()
 	{

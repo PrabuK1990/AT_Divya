@@ -42,7 +42,7 @@ public class TC_Login_001 implements NaukriInputs {
 		
 		//TC_Login_001.closeAllBrowser();
 		
-		System.out.println("No error message should display.");
+		 
 
 	}
 

@@ -16,6 +16,8 @@ public class TC_Login_022 {
 		TC_Login_022.mousehoverToolsLink();
 		TC_Login_022.waitMethod();
 		TC_Login_022.clickonPeopleFlowSLink();
+		TC_Login_022.waitMethod();
+		TC_Login_022.switchToNewTab();
 		TC_Login_022.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

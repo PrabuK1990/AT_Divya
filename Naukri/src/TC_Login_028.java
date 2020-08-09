@@ -15,6 +15,8 @@ public class TC_Login_028 {
 		TC_Login_028.mousehoverMoreLink();
 		TC_Login_028.waitMethod();
 		TC_Login_028.clickonTakeHomeCalculatorSLink();
+		TC_Login_028.waitMethod();
+		TC_Login_028.switchToNewTab();
 		TC_Login_028.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

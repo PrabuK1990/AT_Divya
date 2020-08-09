@@ -29,10 +29,10 @@ public class TC_Login_007 implements NaukriInputs{
 		TC_Login_007.waitMethod();
 		
 		//Enter username
-		TC_Login_007.enterUsername("NaukriInputs_UserName1");
+		TC_Login_007.enterUsername(NaukriInputs_UserName1);
 		
 		//Enter  Invalid Password
-		TC_Login_007.enterPassword("NaukriInput_INPassWord");
+		TC_Login_007.enterPassword(NaukriInput_INPassWord);
 
 		//wait
 		TC_Login_007.waitMethod();

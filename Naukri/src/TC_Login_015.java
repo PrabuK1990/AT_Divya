@@ -13,9 +13,10 @@ public class TC_Login_015 {
 		TC_Login_015.maximizeBrowser();
 		TC_Login_015.mousehoverCompaniesLink();
 		TC_Login_015.clickonAboutCompaniesSLink();
+		TC_Login_015.waitMethod();
+		TC_Login_015.switchToNewTab();
 		TC_Login_015.closeCurrentBrowser();
-		TC_Login_015.naukriURL();
-	
+		
 				
 		System.out.println("It should open new tab");
 	}

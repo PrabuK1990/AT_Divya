@@ -15,6 +15,8 @@ public class TC_Login_029 {
 		TC_Login_029.mousehoverMoreLink();
 		TC_Login_029.waitMethod();
 		TC_Login_029.clickonMSSLink();
+		TC_Login_029.waitMethod();
+		TC_Login_029.switchToNewTab();
 		TC_Login_029.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

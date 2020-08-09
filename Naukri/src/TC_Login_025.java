@@ -15,6 +15,8 @@ public class TC_Login_025 {
 		TC_Login_025.mousehoverServicesLink();
 		TC_Login_025.waitMethod();
 		TC_Login_025.clickonResumeQualityScooreFreeSLink();
+		TC_Login_025.waitMethod();
+		TC_Login_025.switchToNewTab();
 		TC_Login_025.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

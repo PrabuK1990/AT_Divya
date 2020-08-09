@@ -15,6 +15,8 @@ public class TC_Login_016 {
 		TC_Login_016.mousehoverCompaniesLink();
 		TC_Login_016.waitMethod();
 		TC_Login_016.clickonInterviewQuestionSLink();
+		TC_Login_016.waitMethod();
+		TC_Login_016.switchToNewTab();
 		TC_Login_016.closeCurrentBrowser();
 		System.out.println("It should open new tab");
 	}

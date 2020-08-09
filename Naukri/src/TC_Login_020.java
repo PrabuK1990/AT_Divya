@@ -16,6 +16,8 @@ public class TC_Login_020 {
 		TC_Login_020.mousehoverToolsLink();
 		TC_Login_020.waitMethod();
 		TC_Login_020.clickonSalaryTrendsSLink();
+		TC_Login_020.waitMethod();
+		TC_Login_020.switchToNewTab();
 		TC_Login_020.closeCurrentBrowser();
 		
 		

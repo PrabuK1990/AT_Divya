@@ -5,18 +5,19 @@ public class TC_Login_030 {
 		// TODO Auto-generated method stub
         System.out.println("Check whether the SOP sublink is working  ");
 		
-		NaukriReusables TC_Login_30 = new NaukriReusables();
+		NaukriReusables TC_Login_030 = new NaukriReusables();
 
-		TC_Login_30.setPropertyChrome();
-		TC_Login_30.chromeBrowser();
-		TC_Login_30.naukriURL();
-		TC_Login_30.maximizeBrowser();
-		TC_Login_30.waitMethod();
-		TC_Login_30.mousehoverMoreLink();
-		TC_Login_30.waitMethod();
-		TC_Login_30.clickonSOPSLink();
-		TC_Login_30.waitMethod();
-		TC_Login_30.closeCurrentBrowser();
+		TC_Login_030.setPropertyChrome();
+		TC_Login_030.chromeBrowser();
+		TC_Login_030.naukriURL();
+		TC_Login_030.maximizeBrowser();
+		TC_Login_030.waitMethod();
+		TC_Login_030.mousehoverMoreLink();
+		TC_Login_030.waitMethod();
+		TC_Login_030.clickonSOPSLink();
+		TC_Login_030.waitMethod();
+		TC_Login_030.switchToNewTab();
+		TC_Login_030.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");
 	}

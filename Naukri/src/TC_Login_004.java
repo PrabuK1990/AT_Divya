@@ -1,5 +1,5 @@
 
-public class TC_Login_004 {
+public class TC_Login_004 implements NaukriInputs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,7 +30,7 @@ public class TC_Login_004 {
 		
 		//Enter username
 		
-		String usr[] = {"NaukriInputs_InUserName1","NaukriInputs_InUserName2","NaukriInputs_InUserName3"};
+		String usr[] = {NaukriInputs_InUserName1,NaukriInputs_InUserName2,NaukriInputs_InUserName3};
 		
 		for(int i = 0; i < usr.length; i++)
 		{

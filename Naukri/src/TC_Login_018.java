@@ -16,6 +16,8 @@ public class TC_Login_018 {
 		TC_Login_018.mousehoverCompaniesLink();
 		TC_Login_018.waitMethod();
 		TC_Login_018.clickonAboutCompaniesSLink();
+		TC_Login_018.waitMethod();
+		TC_Login_018.switchToNewTab();
 		TC_Login_018.closeCurrentBrowser();
 		
 		

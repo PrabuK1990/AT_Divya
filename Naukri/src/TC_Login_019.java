@@ -16,6 +16,8 @@ public class TC_Login_019 {
 		TC_Login_019.mousehoverCompaniesLink();
 		TC_Login_019.waitMethod();
 		TC_Login_019.clickonInterviewQuestionSLink();
+		TC_Login_019.waitMethod();
+		TC_Login_019.switchToNewTab();
 		TC_Login_019.closeCurrentBrowser();
 		
 		

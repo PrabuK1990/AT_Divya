@@ -15,6 +15,8 @@ public class TC_Login_017 {
 		TC_Login_017.mousehoverCompaniesLink();
 		TC_Login_017.waitMethod();
 		TC_Login_017.clickonBrowseAllCompaniesSLink();
+		TC_Login_017.waitMethod();
+		TC_Login_017.switchToNewTab();
 		TC_Login_017.closeCurrentBrowser();
 		
 		

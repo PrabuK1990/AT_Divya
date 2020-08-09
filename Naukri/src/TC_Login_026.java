@@ -15,6 +15,8 @@ public class TC_Login_026 {
 		TC_Login_026.mousehoverMoreLink();
 		TC_Login_026.waitMethod();
 		TC_Login_026.clickonNaukriBlogSLink();
+		TC_Login_026.waitMethod();
+		TC_Login_026.switchToNewTab();
 		TC_Login_026.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

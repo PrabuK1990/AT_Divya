@@ -32,7 +32,7 @@ public class TC_Login_006 implements NaukriInputs{
 		//Enter username
 		TC_Login_006.enterUsername(NaukriInputs_UserName1);
 		
-		String usr[] = {"NaukriInput_PassWord1", "NaukriInput_PassWord2"};
+		String usr[] = {NaukriInput_PassWord1, NaukriInput_PassWord2};
 		
 		for(int i = 0; i < usr.length; i++)
 		{

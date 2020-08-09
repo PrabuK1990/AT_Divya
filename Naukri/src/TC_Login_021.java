@@ -16,6 +16,8 @@ public class TC_Login_021 {
 		TC_Login_021.mousehoverToolsLink();
 		TC_Login_021.waitMethod();
 		TC_Login_021.clickonCareerNavigatorSLink();
+		TC_Login_021.waitMethod();
+		TC_Login_021.switchToNewTab();
 		TC_Login_021.closeCurrentBrowser();
 	
 		System.out.println("It should open new tab");

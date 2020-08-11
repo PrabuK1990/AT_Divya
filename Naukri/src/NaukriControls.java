@@ -118,13 +118,13 @@ public interface NaukriControls {
 	public static String NaukriControls_EmployerContactNumber ="//form[@id='rcbFormLoginPage']/div/div[2]/div/input";
 	
 	//Xpath for Employer Company Name
-	public static String NaukriControls_EmployerCompanyName ="//div [@ class ='formRow newErr']//div[@ class ='floatlabel-wrapper']//input[@ id = 'RCBcompany']";
+	public static String NaukriControls_EmployerCompanyName ="//div[1]/input[@ id ='RCBcompany']";
 	
 	//Xpath for Employer Email ID
 	public static String NaukriControls_EmployerEmailId = "//form [@name ='rcbFormLoginPage']/div/div/div/input[@ id='RCBemail']";
 	
 	//Xpath for Employer City
-	public static String NaukriControls_NaukriControls_EmployerCity = "//form [@name ='rcbFormLoginPage']/div/div/div/input[@ id='RCBcity']";
+	public static String NaukriControls_EmployerCity = "//form [@name ='rcbFormLoginPage']/div/div/div/input[@ id='RCBcity']";
 	
 	//Xpath for Submit Enquiry
 	public static String NaukriControls_EmployerSubmitEnquiry = "getACallLoginPage";

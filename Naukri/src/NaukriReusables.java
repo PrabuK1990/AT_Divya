@@ -180,6 +180,42 @@ public ArrayList<String> listTabs;
 		chrome.findElement(By.xpath(NaukriControls_EmployerContactNumber)).clear();
 	}	
 	
+	//Click on Employer Company Name
+	public void employerCompanyName(String EmployerCompanyName)
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerCompanyName)).sendKeys(EmployerCompanyName);
+	}
+	
+	
+	//Clear Employer Company Name TextBox
+	public void clearEmployerCompanyName()
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerCompanyName)).clear();
+	}
+	
+	//Click on Employer Email ID
+	public void emloyerEmailID(String EmployerEmailID)
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerEmailId)).sendKeys(EmployerEmailID);
+	}
+	
+	//Clear Employer Email ID TextBox
+	public void clearemployerEmailID()
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerEmailId)).clear();
+	}
+	
+	//Click Employer City
+	public void emloyerCity(String EmployerName)
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerCity)).sendKeys(EmployerName);
+	}
+	
+	//Clear Employer City TextBox
+	public void clearEmployerCity()
+	{
+		chrome.findElement(By.xpath(NaukriControls_EmployerCity)).clear();
+	}
 	//Move Mouse Pointer on Job Menu
 	public void mousehoverJobLink()
 	{

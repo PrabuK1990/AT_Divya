@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="126" started-at="2020-08-09T15:30:36Z" finished-at="2020-08-09T15:30:36Z">
+  <suite name="Default suite" duration-ms="109" started-at="2020-08-09T19:22:51Z" finished-at="2020-08-09T19:22:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="126" started-at="2020-08-09T15:30:36Z" finished-at="2020-08-09T15:30:36Z">
+    <test name="Default test" duration-ms="109" started-at="2020-08-09T19:22:51Z" finished-at="2020-08-09T19:22:51Z">
       <class name="TS_Login_002">
-        <test-method status="FAIL" signature="BeforeAllTest()[pri:0, instance:TS_Login_002@d2cc05a]" name="BeforeAllTest" is-config="true" duration-ms="55" started-at="2020-08-09T16:30:36Z" finished-at="2020-08-09T16:30:36Z">
+        <test-method status="FAIL" signature="BeforeAllTest()[pri:0, instance:TS_Login_002@7dc7cbad]" name="BeforeAllTest" is-config="true" duration-ms="36" started-at="2020-08-09T20:22:51Z" finished-at="2020-08-09T20:22:51Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at TS_Login_002.BeforeAllTest(TS_Login_002.java:13)
+	at TS_Login_002.BeforeAllTest(TS_Login_002.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeAllTest -->
-        <test-method status="SKIP" signature="BeforeEachTest()[pri:0, instance:TS_Login_002@d2cc05a]" name="BeforeEachTest" is-config="true" duration-ms="0" started-at="2020-08-09T16:30:36Z" finished-at="2020-08-09T16:30:36Z">
+        <test-method status="SKIP" signature="BeforeEachTest()[pri:0, instance:TS_Login_002@7dc7cbad]" name="BeforeEachTest" is-config="true" duration-ms="0" started-at="2020-08-09T20:22:51Z" finished-at="2020-08-09T20:22:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeEachTest -->
-        <test-method status="SKIP" signature="testcase_011()[pri:0, instance:TS_Login_002@d2cc05a]" name="testcase_011" duration-ms="0" started-at="2020-08-09T16:30:36Z" finished-at="2020-08-09T16:30:36Z">
+        <test-method status="SKIP" signature="testcase_011()[pri:0, instance:TS_Login_002@7dc7cbad]" name="testcase_011" duration-ms="1" started-at="2020-08-09T20:22:51Z" finished-at="2020-08-09T20:22:51Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at TS_Login_002.BeforeAllTest(TS_Login_002.java:13)
+	at TS_Login_002.BeforeAllTest(TS_Login_002.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

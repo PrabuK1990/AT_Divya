@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TS_Login_001 implements NaukriInputs {
+public class TS_Login_001 extends NaukriInputs {
 
 	public NaukriReusables TS_Login_001;
 
@@ -120,7 +120,7 @@ public class TS_Login_001 implements NaukriInputs {
 		// Enter username
 		TS_Login_001.enterUsername(NaukriInputs_UserName1);
 
-		String usr[] = { NaukriInput_PassWord1, NaukriInput_PassWord2 };
+		String usr[] = { NaukriInputs_PassWord1, NaukriInputs_PassWord2 };
 
 		for (int i = 0; i < usr.length; i++) {
 			TS_Login_001.enterPassword(usr[i]);// Passing Parameter/Arguement
@@ -141,7 +141,7 @@ public class TS_Login_001 implements NaukriInputs {
 		TS_Login_001.enterUsername(NaukriInputs_UserName1);
 		
 		//Enter  Invalid Password
-		TS_Login_001.enterPassword(NaukriInput_INPassWord);
+		TS_Login_001.enterPassword(NaukriInputs_InPassWord);
 
 		//wait
 		TS_Login_001.waitMethod();
@@ -161,7 +161,7 @@ public class TS_Login_001 implements NaukriInputs {
 		TS_Login_001.enterUsername(NaukriInputs_UserName1);
 		
 		//Enter Password
-		TS_Login_001.enterPassword(NaukriInput_INPassWord);
+		TS_Login_001.enterPassword(NaukriInputs_InPassWord);
 
 		//wait
 		TS_Login_001.waitMethod();
@@ -181,7 +181,7 @@ public class TS_Login_001 implements NaukriInputs {
 		TS_Login_001.enterUsername(NaukriInputs_UserName1);
 		
 		//Enter Password
-		TS_Login_001.enterPassword(NaukriInput_INPassWord);
+		TS_Login_001.enterPassword(NaukriInputs_InPassWord);
 
 		//wait
 		TS_Login_001.waitMethod();

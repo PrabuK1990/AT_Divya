@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.sun.glass.events.KeyEvent;
 
-public class NaukriReusables implements NaukriInputs, NaukriControls {
+public class NaukriReusables extends NaukriInputs implements NaukriControls {
 
 public WebDriver chrome;
 public WebDriver firefox;
@@ -113,7 +113,7 @@ public ArrayList<String> listTabs;
 	{
 		try 
 		{
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		}
 		catch (InterruptedException e) 
 		{
@@ -167,11 +167,23 @@ public ArrayList<String> listTabs;
 	}
 	
 	//Keyboard Action PageDown
+	@SuppressWarnings("restriction")
 	public void keboardPageDown() throws AWTException
 	{
 		Robot keyboard = new Robot();
 		keyboard.keyPress(KeyEvent.VK_PAGE_DOWN);
 		keyboard.keyRelease(KeyEvent.VK_PAGE_DOWN);
+	}
+	
+	//To close new tab using keyboard actions
+	@SuppressWarnings("restriction")
+	public void pressCtrlW() throws AWTException
+	{
+		Robot keyboard = new Robot();
+		keyboard.keyPress(KeyEvent.VK_CONTROL);
+		keyboard.keyPress(KeyEvent.VK_W);
+		keyboard.keyRelease(KeyEvent.VK_CONTROL);
+		keyboard.keyRelease(KeyEvent.VK_W);
 	}
 	
 	//Click Employer Contact Number

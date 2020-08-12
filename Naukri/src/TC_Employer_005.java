@@ -16,9 +16,9 @@ public class TC_Employer_005 implements NaukriEmployerInputs {
 		TC_Employer_005.switchToNewTab();
 		TC_Employer_005.waitMethod();
 		TC_Employer_005.saleEnquiry();
-		TC_Employer_005.employerCompanyName("Radha");
+		//TC_Employer_005.employerCompanyName("Radha");
 		
-	/*	String usr[]={NaukriEmployerInputs_EmployeCompanyName1 ,NaukriEmployerInputs_EmployeCompanyName2};
+		String usr[]={NaukriEmployerInputs_EmployeCompanyName1 ,NaukriEmployerInputs_EmployeCompanyName2};
 		for(int i = 0; i < usr.length; i++)
 		{
 			TC_Employer_005.employerCompanyName(usr[i]);
@@ -32,7 +32,8 @@ public class TC_Employer_005 implements NaukriEmployerInputs {
 		TC_Employer_005.closeCurrentBrowser();
 		TC_Employer_005.switchToDefaultTab();
 		TC_Employer_005.waitMethod();
-		TC_Employer_005.ForEmployers(); */
+		//TC_Employer_005.ForEmployers(); 
+		TC_Employer_005.closeAllBrowser();
 		System.out.println("Company Name TextBox Accept the Valid Input");
 		}
 

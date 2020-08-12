@@ -118,7 +118,7 @@ public interface NaukriControls {
 	public static String NaukriControls_EmployerContactNumber ="//form[@id='rcbFormLoginPage']/div/div[2]/div/input";
 	
 	//Xpath for Employer Company Name
-	public static String NaukriControls_EmployerCompanyName ="//div[1]/input[@ id ='RCBcompany']";
+	public static String NaukriControls_EmployerCompanyName ="//form[@ id ='rcbFormLoginPage']/div[1]/div[3]/div/input";
 	
 	//Xpath for Employer Email ID
 	public static String NaukriControls_EmployerEmailId = "//form [@name ='rcbFormLoginPage']/div/div/div/input[@ id='RCBemail']";

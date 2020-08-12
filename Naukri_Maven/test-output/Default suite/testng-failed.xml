@@ -6,6 +6,9 @@
       <class name="TS_Login_002">
         <methods>
           <include name="BeforeEachTest"/>
+          <include name="afterAllTest"/>
+          <include name="testcase_013"/>
+          <include name="testcase_012"/>
           <include name="afterEachTest"/>
           <include name="BeforeAllTest"/>
           <include name="testcase_011"/>

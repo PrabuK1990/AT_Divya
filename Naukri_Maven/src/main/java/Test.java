@@ -36,7 +36,7 @@ public class Test {
 		
 		String inusername1 = row.getCell(5).getStringCellValue();
 		System.out.println(inusername1);
-		
+
 		String inusername2 = row.getCell(6).getStringCellValue();
 		System.out.println(inusername2);
 		

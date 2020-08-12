@@ -12,8 +12,10 @@ public class TS_Login_001 extends NaukriInputs {
 
 	// Before All Test Case
 	@BeforeTest
-	public void beforeAllTest() {
+	public void beforeAllTest() throws IOException {
 		TS_Login_001 = new NaukriReusables();
+		NaukriInputs inputs = new NaukriInputs();
+		inputs.loadExcel();
 		TS_Login_001.setPropertyChrome();
 		TS_Login_001.chromeBrowser();
 		TS_Login_001.naukriURL();
@@ -211,8 +213,8 @@ public class TS_Login_001 extends NaukriInputs {
 	@AfterTest
 	public void afterAllTest() throws IOException, InterruptedException {
 		TS_Login_001.closeAllBrowser();
-		Email email = new Email();
-		email.sendEmail();
+		//Email email = new Email();
+		//email.sendEmail();
 	}
 
 }

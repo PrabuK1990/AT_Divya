@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49131" started-at="2020-08-12T22:48:47Z" finished-at="2020-08-12T22:49:36Z">
+  <suite name="Default suite" duration-ms="50887" started-at="2020-08-13T04:30:26Z" finished-at="2020-08-13T04:31:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49131" started-at="2020-08-12T22:48:47Z" finished-at="2020-08-12T22:49:36Z">
+    <test name="Default test" duration-ms="50887" started-at="2020-08-13T04:30:26Z" finished-at="2020-08-13T04:31:17Z">
       <class name="TS_Login_006">
-        <test-method status="PASS" signature="BeforeAllTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeAllTestCase" is-config="true" duration-ms="17826" started-at="2020-08-12T23:48:47Z" finished-at="2020-08-12T23:49:05Z">
+        <test-method status="PASS" signature="BeforeAllTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeAllTestCase" is-config="true" duration-ms="18719" started-at="2020-08-13T05:30:26Z" finished-at="2020-08-13T05:30:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeAllTestCase -->
-        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="6046" started-at="2020-08-12T23:49:05Z" finished-at="2020-08-12T23:49:11Z">
+        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="6260" started-at="2020-08-13T05:30:45Z" finished-at="2020-08-13T05:30:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeEachTestCase -->
-        <test-method status="PASS" signature="testcase_023()[pri:0, instance:TS_Login_006@c038203]" name="testcase_023" duration-ms="2229" started-at="2020-08-12T23:49:11Z" finished-at="2020-08-12T23:49:13Z">
+        <test-method status="PASS" signature="testcase_023()[pri:0, instance:TS_Login_006@c038203]" name="testcase_023" duration-ms="2236" started-at="2020-08-13T05:30:51Z" finished-at="2020-08-13T05:30:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_023 -->
-        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2400" started-at="2020-08-12T23:49:13Z" finished-at="2020-08-12T23:49:16Z">
+        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2444" started-at="2020-08-13T05:30:54Z" finished-at="2020-08-13T05:30:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterEachTestCase -->
-        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="5314" started-at="2020-08-12T23:49:16Z" finished-at="2020-08-12T23:49:21Z">
+        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="5738" started-at="2020-08-13T05:30:56Z" finished-at="2020-08-13T05:31:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeEachTestCase -->
-        <test-method status="PASS" signature="testcase_024()[pri:0, instance:TS_Login_006@c038203]" name="testcase_024" duration-ms="2185" started-at="2020-08-12T23:49:21Z" finished-at="2020-08-12T23:49:23Z">
+        <test-method status="PASS" signature="testcase_024()[pri:0, instance:TS_Login_006@c038203]" name="testcase_024" duration-ms="2257" started-at="2020-08-13T05:31:02Z" finished-at="2020-08-13T05:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_024 -->
-        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2005" started-at="2020-08-12T23:49:23Z" finished-at="2020-08-12T23:49:25Z">
+        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2004" started-at="2020-08-13T05:31:04Z" finished-at="2020-08-13T05:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterEachTestCase -->
-        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="5600" started-at="2020-08-12T23:49:25Z" finished-at="2020-08-12T23:49:31Z">
+        <test-method status="PASS" signature="BeforeEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="BeforeEachTestCase" is-config="true" duration-ms="5766" started-at="2020-08-13T05:31:06Z" finished-at="2020-08-13T05:31:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeEachTestCase -->
-        <test-method status="PASS" signature="testcase_025()[pri:0, instance:TS_Login_006@c038203]" name="testcase_025" duration-ms="2204" started-at="2020-08-12T23:49:31Z" finished-at="2020-08-12T23:49:33Z">
+        <test-method status="PASS" signature="testcase_025()[pri:0, instance:TS_Login_006@c038203]" name="testcase_025" duration-ms="2175" started-at="2020-08-13T05:31:12Z" finished-at="2020-08-13T05:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_025 -->
-        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2003" started-at="2020-08-12T23:49:33Z" finished-at="2020-08-12T23:49:35Z">
+        <test-method status="PASS" signature="AfterEachTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterEachTestCase" is-config="true" duration-ms="2003" started-at="2020-08-13T05:31:14Z" finished-at="2020-08-13T05:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterEachTestCase -->
-        <test-method status="PASS" signature="AfterAllTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterAllTestCase" is-config="true" duration-ms="1233" started-at="2020-08-12T23:49:35Z" finished-at="2020-08-12T23:49:36Z">
+        <test-method status="PASS" signature="AfterAllTestCase()[pri:0, instance:TS_Login_006@c038203]" name="AfterAllTestCase" is-config="true" duration-ms="1198" started-at="2020-08-13T05:31:16Z" finished-at="2020-08-13T05:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterAllTestCase -->

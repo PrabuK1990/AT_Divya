@@ -1,4 +1,4 @@
-package MoneySUperMarketPackage;
+package MoneySuperMarketPackage;
 
 /**
  * Hello world!

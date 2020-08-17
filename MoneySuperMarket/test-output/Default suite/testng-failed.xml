@@ -3,17 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MoneySuperMarketPackage.TS_Login_01">
+      <class name="TS_Login_01">
         <methods>
-          <include name="beforeAllTest"/>
-          <include name="afterEachTest"/>
           <include name="testcase_03"/>
+          <include name="testcase_08"/>
+          <include name="testcase_09"/>
+          <include name="testcase_06"/>
+          <include name="testcase_07"/>
+          <include name="testcase_04"/>
+          <include name="beforeAllTest"/>
+          <include name="testcase_05"/>
           <include name="testcase_02"/>
-          <include name="testcase_01"/>
-          <include name="afterAllTest"/>
+          <include name="testcase_13"/>
           <include name="beforeEachTest"/>
+          <include name="testcase_11"/>
+          <include name="testcase_01"/>
+          <include name="testcase_12"/>
+          <include name="afterEachTest"/>
+          <include name="testcase_10"/>
+          <include name="afterAllTest"/>
         </methods>
-      </class> <!-- MoneySuperMarketPackage.TS_Login_01 -->
+      </class> <!-- TS_Login_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

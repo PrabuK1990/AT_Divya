@@ -1,4 +1,4 @@
-package MoneySuperMarketPackage;
+
 
 public interface MoneySuperMarketControls {
 	//Login Controls

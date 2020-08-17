@@ -1,4 +1,4 @@
-package MoneySuperMarketPackage;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +25,7 @@ public class MoneySuperMarketInputs {
 		public static String MSMInputs_InPassWord2 ;
 
 		public void loadExcel() throws IOException {
-			FileInputStream file = new FileInputStream(new File("src\\resources\\excel\\Inputs_MSM.xlsx"));
+			FileInputStream file = new FileInputStream(new File("C:\\Inputs_MSM.xlsx"));
 
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 

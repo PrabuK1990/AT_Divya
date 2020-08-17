@@ -6,7 +6,7 @@ public interface MoneySuperMarketControls {
 	public static String MSMControls_EmailID = "//input[@ data-name = 'signInCtrl.signInData.email'";
 	public static String MSMControls_Password = "//input[@data-name ='signInCtrl.signInData.password'";
 	public static String MSMControls_ClickLoginButton = "//button[@ type ='submit']/span";
-	public static  String MSMControls_CheckBox = "//label[@class = 'checkbox__label']";
+	public static String MSMControls_CheckBox = "//label[@class = 'checkbox__label']";
 	public static String MSMControls_ForgetPassword ="//a[@  class = 'signin-panel__forgotten-password']";
 	//Mouse Over Controls
 	//Xpath for Insurance Link

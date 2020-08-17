@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="MoneySuperMarketPackage.TS_Login_01">
+        <methods>
+          <include name="beforeAllTest"/>
+          <include name="afterEachTest"/>
+          <include name="testcase_03"/>
+          <include name="testcase_02"/>
+          <include name="testcase_01"/>
+          <include name="afterAllTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- MoneySuperMarketPackage.TS_Login_01 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

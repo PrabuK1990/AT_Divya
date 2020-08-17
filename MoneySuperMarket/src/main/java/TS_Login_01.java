@@ -33,8 +33,8 @@ public class TS_Login_01 extends MoneySuperMarketInputs {
 	@Test
 	public void testcase_01() {
 		System.out.println("Check whether the  EmailID  field accepts valid inputs");
-		TS_Login_01.clearEmailID();
-		TS_Login_01.clearEmailID();
+		//TS_Login_01.clearEmailID();
+		//TS_Login_01.clearEmailID();
 		String usr[] = { MSMInputs_EmailID1, MSMInputs_EmailID2 };
 
 		for (int i = 0; i < usr.length; i++) {

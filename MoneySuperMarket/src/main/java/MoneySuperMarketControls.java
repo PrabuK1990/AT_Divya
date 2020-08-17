@@ -3,7 +3,7 @@
 public interface MoneySuperMarketControls {
 	//Login Controls
 	public static String MSMControls_LoginLink = "//button[@ data-ng-click = 'headerSigninCtrl.openSignInForm(); navCtrl.closeMobileMenu()']";
-	public static String MSMControls_EmailID = "//input[@ data-name = 'signInCtrl.signInData.email'";
+	public static String MSMControls_EmailID = "//input[@data-name = 'signInCtrl.signInData.email']";
 	public static String MSMControls_Password = "//input[@data-name ='signInCtrl.signInData.password'";
 	public static String MSMControls_ClickLoginButton = "//button[@ type ='submit']/span";
 	public static String MSMControls_CheckBox = "//label[@class = 'checkbox__label']";

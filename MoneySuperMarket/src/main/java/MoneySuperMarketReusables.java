@@ -12,7 +12,7 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 	
 	public void setPropertChrome()
 	{
-		System.setProperty("Webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver.exe");
 	}
 	
 	public void chromeBrowser()

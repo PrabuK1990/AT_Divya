@@ -1,5 +1,3 @@
-
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,10 +5,6 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-//import org.apache.poi.ss.usermodel.Row;
-//import org.apache.poi.xssf.usermodel.XSSFSheet;
-//import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class MoneySuperMarketInputs {
 
@@ -25,7 +19,8 @@ public class MoneySuperMarketInputs {
 		public static String MSMInputs_InPassWord2 ;
 
 		public void loadExcel() throws IOException {
-			FileInputStream file = new FileInputStream(new File("C:\\Inputs_MSM.xlsx"));
+			
+			FileInputStream file = new FileInputStream(new File("src\\Resources\\Excel\\Inputs_MSM.xlsx"));
 
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 

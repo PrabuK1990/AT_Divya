@@ -5,16 +5,18 @@
     <classes>
       <class name="TS_Login_01">
         <methods>
+          <include name="testcase_08"/>
+          <include name="testcase_09"/>
+          <include name="testcase_06"/>
+          <include name="testcase_07"/>
+          <include name="beforeAllTest"/>
+          <include name="testcase_05"/>
           <include name="testcase_13"/>
           <include name="beforeEachTest"/>
           <include name="testcase_11"/>
           <include name="testcase_12"/>
           <include name="afterEachTest"/>
           <include name="testcase_10"/>
-          <include name="testcase_08"/>
-          <include name="testcase_09"/>
-          <include name="testcase_07"/>
-          <include name="beforeAllTest"/>
           <include name="afterAllTest"/>
         </methods>
       </class> <!-- TS_Login_01 -->

@@ -21,10 +21,13 @@ public class TS_Login_01 extends MoneySuperMarketInputs {
 		TS_Login_01.chromeBrowser();
 		TS_Login_01.moneySuperMarketURL();
 		TS_Login_01.maximizeBrowser();
+		TS_Login_01.acceptsAll();
+		
 	}
 
 	@BeforeMethod
 	public void beforeEachTest() {
+		
 		TS_Login_01.waitMethod();
 		TS_Login_01.clickOnLoginLink();
 		TS_Login_01.waitMethod();
@@ -164,6 +167,7 @@ public class TS_Login_01 extends MoneySuperMarketInputs {
 		TS_Login_01.enterEmailID(MSMInputs_EmailID1);
 		TS_Login_01.clickOnPassWord();
 		TS_Login_01.clearPassWord();
+		TS_Login_01.show_Hide_Button();
 		TS_Login_01.enterPassWord(MSMInputs_InPassWord1);
 		System.out.println(MSMInputs_InPassWord1);
 		TS_Login_01.waitMethod();
@@ -224,14 +228,49 @@ public class TS_Login_01 extends MoneySuperMarketInputs {
 		TS_Login_01.clearPassWord();
 		System.out.println("Error Message is in Black Color");
 	}
+	
+	@Test 
+	public void testcas_14()
+	{
+		System.out.println("Check the Forgotten Password is working ");
+		TS_Login_01.forgetPassword();
+		TS_Login_01.waitMethod();
+		//TS_Login_01.closeCurrentBrowser();
+		System.out.println("Open New WebPage for Forgotten Password");	
+	}
+	
+	@Test
+	public void testcase_15()
+	{
+		System.out.println("Check wether Hide/Show Onclick Button Working");
+		TS_Login_01.waitMethod();
+		TS_Login_01.clearPassWord();
+		TS_Login_01.show_Hide_Button();
+		TS_Login_01.enterPassWord(MSMInputs_PassWord1);
+		TS_Login_01.waitMethod();
+		TS_Login_01.show_Hide_Button();
+		System.out.println("The Hide/Show Onclick Working as Hide -- Password Not shows Show-- Password Will Show");
+	}
+	
+	@Test
+	public void testcase_16()
+	{
+		System.out.println("Check Wether CheckBox field is Working ");
+		TS_Login_01.checkBox();
+		TS_Login_01.waitMethod();
+		TS_Login_01.checkBox();
+		System.out.println("CheckBox Field Is Working To Remember for 90 Days");
+	}
 
 	@AfterMethod
-	public void afterEachTest() {
+	public void afterEachTest()
+	{
 		TS_Login_01.refreshBrowser();
 	}
 
 	@AfterTest
-	public void afterAllTest() {
+	public void afterAllTest()
+	{
 		TS_Login_01.closeAllBrowser();
 	}
 }

@@ -1,9 +1,13 @@
 
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements MoneySuperMarketControls {
 	public WebDriver chrome;
@@ -22,7 +26,7 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 	
 	public void setProprtyFirefox()
 	{
-		System.setProperty("Webdriver.gecko.driver", "src\\resources\\drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src\\resources\\drivers\\geckodriver.exe");
 	}
 	
 	public void fireFoxBrowser()
@@ -89,6 +93,14 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 	{
 		chrome.findElement(By.xpath(MSMControls_ForgetPassword)).click();
 	}
+	public void show_Hide_Button()
+	{
+		chrome.findElement(By.xpath(MSMControls_ShowButton)).click();
+	}
+	public void acceptsAll()
+	{
+		chrome.findElement(By.xpath(MSMControls_AcceptsAll)).click();
+	}
 	public void waitMethod()
 	{
 		try
@@ -105,7 +117,19 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 		chrome.findElement(By.xpath(MSMControls_ClickLoginButton));
 	}
 	
+	public void MousehoverInsurance()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverInsurance = chrome.findElement(By.xpath(MSMControls_Insurance));
+		actions.moveToElement(mousehoverInsurance).perform();
+	}
 	
+	public void mousehoverMoney()
+	{
+		Actions action = new Actions(chrome);
+		WebElement mousehoverMoney = chrome.findElement(By.xpath(MSMControls_Money));
+		action.moveToElement(mousehoverMoney).perform();
+	}
 	
 	
 	

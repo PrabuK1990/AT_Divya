@@ -117,7 +117,7 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 		chrome.findElement(By.xpath(MSMControls_ClickLoginButton));
 	}
 	
-	public void MousehoverInsurance()
+	public void mousehoverInsurance()
 	{
 		Actions actions = new Actions(chrome);
 		WebElement mousehoverInsurance = chrome.findElement(By.xpath(MSMControls_Insurance));
@@ -126,10 +126,131 @@ public class MoneySuperMarketReusables extends MoneySuperMarketInputs implements
 	
 	public void mousehoverMoney()
 	{
-		Actions action = new Actions(chrome);
+		Actions actions = new Actions(chrome);
 		WebElement mousehoverMoney = chrome.findElement(By.xpath(MSMControls_Money));
-		action.moveToElement(mousehoverMoney).perform();
+		actions.moveToElement(mousehoverMoney).perform();
 	}
+	
+	public void mousehoverEnergy()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverEnergy = chrome.findElement(By.xpath(MSMControls_Energy));
+		actions.moveToElement(mousehoverEnergy).perform();	
+	}
+	
+	public void mousehoverBroadband()
+	{
+		Actions action = new Actions(chrome);
+		WebElement mousehoverBroadband = chrome.findElement(By.xpath(MSMControls_Broadband));
+		action.moveToElement(mousehoverBroadband).perform();
+	}
+	
+	public void mousehoverMobilePhones()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverMobilePhones =chrome.findElement(By.xpath(MSMControls_MobilePhones));
+		actions.moveToElement(mousehoverMobilePhones).perform();
+	}
+	
+	public void mousehoverTravel()
+	{
+		Actions actions = new Actions(chrome);
+		WebElement mousehoverTravel = chrome.findElement(By.xpath(MSMControls_Travel));
+		actions.moveToElement(mousehoverTravel).perform();
+	}
+	
+	public void mousehoverCreditMonitor()
+	{
+		Actions actions = new Actions(chrome);
+				WebElement mousehoverCreditMonitor = chrome.findElement(By.xpath(MSMControls_CreditMonitor));
+				actions.moveToElement(mousehoverCreditMonitor).perform();
+	}
+	
+	public void clickonCarInsuranceSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_CarInsuranceSLink)).click();
+	}
+	
+	public void clickonYoungDriversInsuranceSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_YoungDriversInsuranceSLink)).click();
+	}
+	
+	public void clickonCreditCardsSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_CreditCardSLink)).click();
+	}
+	
+	public void clickonLoansSlink()
+	{
+		chrome.findElement(By.xpath(MSMControls_LoansSLink)).click();
+	}
+	
+	public void clickonCompareGasAndElectricitySLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_CompareGasAndElectricitySLink)).click();
+	}
+	
+	public void clickonCompareElectricitySLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_CompareElectricitySLink)).click();
+	}
+	
+	public void clickonBroadbandSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_BroadbandSLink)).click();
+	}
+	
+	public void clickonStudentBroadbandSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_StudentBroadbandSLink)).click();
+	}
+	
+	public void clickonMobilePhonesSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_MobilePhonesSLink)).click();
+	}
+	
+	public void clickonLatestMobilePhoneSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_LatestMobilePhoneSLink)).click();
+	}
+	
+	public void clickonHolidaysSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_HolidaysSLink)).click();
+	}
+	
+	public void clickonCarHireSLink()
+	{
+		chrome.findElement(By.xpath(MSMControls_CarHireSLink)).click();
+	}
+	
+	public void clickonFinOutMore()
+	{
+		chrome.findElement(By.xpath(MSMControls_FindOutMoreSLink)).click();
+	}
+	
+	public void clickonCheckYourScore()
+	{
+		chrome.findElement(By.xpath(MSMControls_CheckYourScoreSLink)).click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

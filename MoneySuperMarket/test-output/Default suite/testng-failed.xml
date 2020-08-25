@@ -3,25 +3,24 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TS_Login_01">
+      <class name="TS_Login_02">
         <methods>
-          <include name="testcase_08"/>
-          <include name="testcase_09"/>
-          <include name="testcase_06"/>
-          <include name="testcase_07"/>
-          <include name="testcase_15"/>
+          <include name="testcase_36"/>
+          <include name="testcase_37"/>
+          <include name="testcase_29"/>
+          <include name="testcase_28"/>
           <include name="beforeAllTest"/>
-          <include name="testcase_05"/>
-          <include name="testcase_16"/>
-          <include name="testcase_13"/>
-          <include name="beforeEachTest"/>
-          <include name="testcase_11"/>
-          <include name="testcase_12"/>
-          <include name="afterEachTest"/>
-          <include name="testcase_10"/>
           <include name="afterAllTest"/>
+          <include name="testcase_35"/>
+          <include name="afterEachTest"/>
+          <include name="testcase_32"/>
+          <include name="testcse_30"/>
+          <include name="testcase_31"/>
+          <include name="beforeEachTest"/>
+          <include name="testcase_34"/>
+          <include name="testcase_33"/>
         </methods>
-      </class> <!-- TS_Login_01 -->
+      </class> <!-- TS_Login_02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

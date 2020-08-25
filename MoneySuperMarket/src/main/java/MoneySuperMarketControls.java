@@ -13,20 +13,19 @@ public interface MoneySuperMarketControls {
 	public static String MSMControls_ShowButton = "//div[@ class = 'view-password-data type-change-btn']/span";
 	//Mouse Over Controls
 	//Xpath for Insurance Link
-	public static String MSMControls_Insurance = "//div[@ class = 'top-navigation-component']/ul[1]/li[1]/a[1]";
+	public static String MSMControls_Insurance = "//div[@class = 'top-navigation-component']/ul/li[1]/a";
 	//Xpath for Money Link
 	public static String MSMControls_Money = "//div[@ class = 'top-navigation-component']/ul[1]/li[2]/a[1]/span[1]";
 	//Xpath for Energy Link
-	public static String MSMControls_Energy ="//li[@ class ='header-links-section-component header-links-section-component--opened']/a";
+	public static String MSMControls_Energy ="//div[@ class = 'top-navigation-component']/ul[1]/li[3]/a";
 	//Xpath for Broadband
-	public static String MSMControls_Broadband = "//li[@ class ='header-links-section-component header-links-section-component--opened']/a";
+	public static String MSMControls_Broadband = "//div[@ class = 'top-navigation-component']/ul[1]/li[4]/a";
 	//Xpath for MobilePhone
-	public static String MSMControls_MobilePhone = "//li[@class = 'header-links-section-component header-links-section-component--opened']/a";
+	public static String MSMControls_MobilePhones = "//div[@ class = 'top-navigation-component']/ul[1]/li[5]/a";
 	//Xpath for Travel
-	public static String MSMControls_Travel = "//li[@class = 'header-links-section-component header-links-section-component--opened']/a";
+	public static String MSMControls_Travel = "//div[@ class = 'top-navigation-component']/ul[1]/li[6]/a";
 	//Xpath for CreditMonitor
-	public static String MSMControls_CreditMonitor = "//li[@class = 'header-links-section-component header-links-section-component--opened']/a";
-	
+	public static String MSMControls_CreditMonitor = "//div[@ class = 'top-navigation-component']/ul[1]/li[7]/a";
 	//Xpath for SubLinks
 	//Xpath for Insurance SubLink
 	public static String MSMControls_CarInsuranceSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[1]/div/div/div[1]/a[1]";
@@ -38,18 +37,18 @@ public interface MoneySuperMarketControls {
 	public static String MSMControls_CompareGasAndElectricitySLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[3]/div/div/div[1]/a[1]";
 	public static String MSMControls_CompareElectricitySLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[3]/div/div/div[1]/a[2]";
 	//Xpath for Broadband SubLink#
-	public static String MSMControls_BroadbandSLinkSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[4]/div/div/div[1]/a[1]";
+	public static String MSMControls_BroadbandSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[4]/div/div/div[1]/a[1]";
 	public static String MSMControls_StudentBroadbandSLink ="//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[4]/div/div/div[1]/a[2]";
 	
 	//Xpath for MobilePhone SubLink
-	public static String MSMControls_MobilePhoneSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[5]/div/div/div[1]/a[1]";
+	public static String MSMControls_MobilePhonesSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[5]/div/div/div[1]/a[1]";
 	public static String MSMControls_LatestMobilePhoneSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[5]/div/div/div[1]/a[2]";
 	//Xpath for Travel subLink
 	public static String MSMControls_HolidaysSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[6]/div/div/div[1]/a[1]";
 	public static String MSMControls_CarHireSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[6]/div/div/div[1]/a[2]";
 	//Xpath for CreditMonitor
-	public static String MSMControls_FindOutMore = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[7]/div/div/div[1]/a[1]";
-	public static String MSMControls_CheckYourScore = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[7]/div/div/div[1]/a[2]";
+	public static String MSMControls_FindOutMoreSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[7]/div/div/div[1]/a[1]";
+	public static String MSMControls_CheckYourScoreSLink = "//div[@ class = 'top-navigation-component top-navigation-component--opened']/ul/li[7]/div/div/div[1]/a[2]";
 	
 
 }
